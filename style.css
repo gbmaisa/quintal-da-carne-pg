@@ -50,10 +50,12 @@ color:#556B2F;
 /* BANNER */
 
 .banner{
-background-color:#556B2F;
+background-image: url("img/churrasco.jpg");
+background-size: cover;
+background-position: center;
 color:white;
 text-align:center;
-padding:70px;
+padding:120px;
 }
 
 
