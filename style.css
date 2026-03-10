@@ -1,84 +1,42 @@
-<nav>
-<a href="../inicio/index.html">Início</a>
-<a href="../cardapio/cardapio.html">Cardápio</a>
-<a href="../endereco/endereco.html">Endereço</a>
-<a href="../contato/contato.html">Contato</a>
-<a href="../avaliacao/avaliacao.html">Avaliação</a>
-</nav>
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-}
-
-header{
-    background-color: #8B0000;
-    color: white;
-    padding: 20px;
-}
-
-nav a{
-    color: white;
-    margin-right: 10px;
-    text-decoration: none;
-}
-
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background-color:#EDE7DB;
+background-color:#F5E6C8;
 }
 
 
 /* HEADER */
 
 header{
-background-color:#4B0F0F;
+background-color:#7A0C0C;
 color:white;
 padding:20px;
+text-align:center;
 }
 
 
-/* TOPO */
+/* AREA DO LOGO */
 
-.topo{
+.logo-area{
 display:flex;
 align-items:center;
 justify-content:center;
-gap:20px;
+gap:15px;
 }
-
-
-/* LOGO */
 
 .logo{
-height:90px;
-border-radius:50%;
-}
-
-
-/* TITULO */
-
-.titulo h1{
-margin:0;
-font-size:28px;
-}
-
-.slogan{
-margin:0;
-font-size:14px;
-color:#EDE7DB;
+height:70px;
 }
 
 
 /* MENU */
 
 nav{
-text-align:center;
-margin-top:15px;
+margin-top:10px;
 }
 
 nav a{
-color:#EDE7DB;
+color:#F5E6C8;
 margin:15px;
 text-decoration:none;
 font-weight:bold;
@@ -95,7 +53,7 @@ color:#556B2F;
 background-color:#556B2F;
 color:white;
 text-align:center;
-padding:80px;
+padding:70px;
 }
 
 
@@ -104,15 +62,15 @@ padding:80px;
 .sobre{
 padding:40px;
 text-align:center;
-color:#3A1C12;
+color:#5C3A21;
 }
 
 
 /* RODAPÉ */
 
 footer{
-background-color:#3A1C12;
-color:#EDE7DB;
+background-color:#5C3A21;
+color:#F5E6C8;
 text-align:center;
 padding:15px;
 }
